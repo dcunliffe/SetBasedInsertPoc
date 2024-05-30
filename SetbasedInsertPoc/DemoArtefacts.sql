@@ -44,3 +44,5 @@ CREATE TABLE [dbo].[Addresses] (
     [LibPostalData]           NVARCHAR (MAX)   NULL,
     CONSTRAINT [PK_Addresses] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
+
+truncate table Addresses;
